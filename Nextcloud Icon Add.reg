@@ -1,0 +1,43 @@
+Windows Registry Editor Version 5.00
+
+; NOTE, this file uses a GUID generated here
+; https://www.guidgenerator.com/online-guid-generator.aspx
+; IF you are going to have multiple Nextcloud folders in your tree you
+; will need to make a new GUID for each folder and find/replace the
+; value "38d6662b-09f4-4e73-bf61-b0e512ec41e1" with your unique GUID
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}]
+; Name of the folder, also see last line below
+@="Nextcloud"
+; Sort order, lower number for higher in list
+"SortOrderIndex"=dword:00000040
+; 1 for shown, 0 for not shown
+"System.IsPinnedToNamespaceTree"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}\DefaultIcon]
+; folder icon, pulled the Nextcloud favicon.ico from nextcloud.com
+@="‪C:\Program Files\Nextcloud\Nextcloud.ico"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}\InProcServer32]
+@=hex(2):25,00,53,00,59,00,53,00,54,00,45,00,4d,00,52,00,4f,00,4f,00,54,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,73,00,68,00,\
+  65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}\Instance]
+"CLSID"="{0E5AAE11-A475-4c5b-AB00-C66DE400274E}"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}\Instance\InitPropertyBag]
+"Attributes"=dword:00000011
+; this is the folder we're pointing at
+"TargetFolderPath"="C:\Users\Andreas Ljunggren\NextCloud"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}\ShellFolder]
+"Attributes"=dword:f080004d
+"FolderValueFlags"=dword:00000028
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{38d6662b-09f4-4e73-bf61-b0e512ec41e1}"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{38d6662b-09f4-4e73-bf61-b0e512ec41e1}]
+; Name of the folder again
+@="Nextcloud"
