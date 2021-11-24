@@ -31,3 +31,4 @@ SwitchToWindowsTerminal()
 ; Hotkey to use Ctrl+Shift+C to launch/restore the Windows Terminal.
 #x::SwitchToWindowsTerminal()
 #q::Send !{F4}
+#c::Run calc.exe
