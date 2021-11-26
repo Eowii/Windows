@@ -16,15 +16,12 @@
 					"PackageIdentifier" : "ShareX.ShareX"
 				},
 				{
-					"PackageIdentifier" : "AMD.RyzenMaster"
-				},
-				{
 					"PackageIdentifier" : "Lexikos.AutoHotkey"
 				},
 				{
 					"PackageIdentifier" : "CPUID.CPU-Z"
 				},
-								{
+				{
 					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
@@ -86,9 +83,6 @@
 				},
 				{
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
-				},
-				{
-					"PackageIdentifier" : "Nvidia.PhysX"
 				},
 				{
 					"PackageIdentifier" : "Nvidia.Broadcast"
