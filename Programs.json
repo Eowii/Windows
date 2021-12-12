@@ -31,7 +31,7 @@
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "BraveSoftware.BraveBrowser"
+					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Thunderbird"
